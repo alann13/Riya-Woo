@@ -1,13 +1,20 @@
 {
   "name": "riya",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A block-based theme for woocommerce.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Wordpress",
+    "Woocommerce",
+    "Block theme"
+  ],
   "author": "Alan",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alann13/Riya-Woo/issues"
+  },
+  "homepage": "https://github.com/alann13/Riya-Theme"
 }
