@@ -1,7 +1,38 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
-  "settings": {},
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {"color": "#351F65", "slug": "primary", "name": "Primary"},
+        {"color": "#251647", "slug": "primary-dark", "name": "Primary - Dark"},
+        {"color": "#5A527A", "slug": "primary-light", "name": "Primary - Light"},
+        {"color": "#D7D2E0", "slug": "stroke", "name": "Stroke"},
+        {"color": "#EBE8EF", "slug": "stroke-light", "name": "Stroke - Light"},
+        {"color": "#F9F7FC", "slug": "background-main", "name": "Background - Main"},
+        {"color": "#FCFBFD", "slug": "background-light", "name": "Background - Light"},
+        {"color": "#F5F3F9", "slug": "background-dark", "name": "Background - Dark"},
+        {"color": "#FC7A22", "slug": "highlight-main", "name": "Highlight - Main"},
+        {"color": "#20B4E2", "slug": "highlight-secondary", "name": "Highlight - Secondary"},
+        {"color": "#C84612", "slug": "highlight-main-contrast", "name": "Highlight - Main Contrast"},
+        {"color": "#1B79A7", "slug": "highlight-secondary-contrast", "name": "Highlight - Secondary Contrast"}
+      ]
+    },
+    "typography": {
+      "fontFamilies": [{
+        "name": "Main Font",
+        "slug": "main-font",
+        "fontFamily": "Atlas Grotesk, sans-serif",
+        "fontFace": [
+          { "fontFamily": "Atlas Grotesk", "fontWeight": "400", "src": ["file:./assets/fonts/atlas-grotesk-regular.woff"] },
+          { "fontFamily": "Atlas Grotesk", "fontWeight": "500", "src": ["file:./assets/fonts/atlas-grotesk-medium.woff"] },
+          { "fontFamily": "Atlas Grotesk", "fontWeight": "700", "src": ["file:./assets/fonts/atlas-grotesk-bold.woff"] }
+        ]
+      }]
+    }
+  },
   "styles": {},
   "templateParts": [],
   "patterns": [],
