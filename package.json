@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "A block-based theme for woocommerce.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "wp-scripts build --webpack-src-dir=src/blocks",
+    "start": "wp-scripts start --webpack-src-dir=src/blocks"
   },
   "keywords": [
     "Wordpress",
@@ -12,9 +13,11 @@
   ],
   "author": "Alan",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/alann13/Riya-Woo/issues"
   },
-  "homepage": "https://github.com/alann13/Riya-Theme"
+  "homepage": "https://github.com/alann13/Riya-Theme",
+  "devDependencies": {
+    "@wordpress/scripts": "31.1.0"
+  }
 }
